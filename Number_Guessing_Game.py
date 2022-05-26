@@ -5,7 +5,7 @@ Low = int(input('the smallest possible number:'))
 High = int(input('the largest possible number:'))
 NumToGuess = randint(Low,High)
 
-#command
+
 runG = True
 
 while runG == True:
