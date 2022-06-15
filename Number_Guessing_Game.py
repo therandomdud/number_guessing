@@ -17,7 +17,7 @@ while runG == True:
  elif x == NumToGuess:
   print('you won')
   runG = False    
-    
+   #du bist gay 
     
 
         
