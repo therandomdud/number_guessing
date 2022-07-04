@@ -1,20 +1,20 @@
 from random import randint, random, uniform
 
 
-Low = int(input('the smallest possible number:'))
-High = int(input('the largest possible number:'))
-NumToGuess = randint(Low,High)
+low = int(input('the smallest possible number:'))
+high = int(input('the largest possible number:'))
+numtoguess = randint(Low,High)
 
 
 runG = True
 
 while runG == True:
  x = int(input('witch number is it:'))
- if x > NumToGuess:
+ if x > numtoguess:
   print('lower')
- elif x < NumToGuess:
+ elif x < numtoguess:
   print('higher')
- elif x == NumToGuess:
+ elif x == numtoguess:
   print('you won')
   runG = False    
     
