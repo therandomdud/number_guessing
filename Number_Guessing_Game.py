@@ -9,7 +9,7 @@ while running:
   low = int(input('Give me the smallest number you want!\n>'))
   high = int(input('Give me the highest number you want!\n>'))
   num_to_guess = randint(low, high)
-  number_guessed = True
+  number_gen = True
   
  try:
   x = int(input("Guess your number!\n>"))
