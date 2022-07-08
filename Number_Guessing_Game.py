@@ -22,3 +22,4 @@ while running:
   print('The number is higher!')
  elif x == num_to_guess:
   print('You guessed your number!')
+  number_gen = False
